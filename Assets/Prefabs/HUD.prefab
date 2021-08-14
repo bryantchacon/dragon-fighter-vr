@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 8577012507061880477}
   - component: {fileID: 1221368554}
   m_Layer: 5
-  m_Name: HealthSlider
+  m_Name: HealthBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -175,6 +175,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064174e5b5ec3634c8a4a57e73944af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  barType: 0
 --- !u!1 &8577012507787527227
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +399,7 @@ GameObject:
   - component: {fileID: 8577012507875995755}
   - component: {fileID: 994765852}
   m_Layer: 5
-  m_Name: ManaSlider
+  m_Name: ManaBar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -486,6 +488,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 064174e5b5ec3634c8a4a57e73944af1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  barType: 1
 --- !u!1 &8577012507987690375
 GameObject:
   m_ObjectHideFlags: 0
