@@ -1,4 +1,4 @@
-# Dragons VR
+# Dragon Fighter VR
 
 ![DragonsVR](https://static.platzi.com/media/landing-projects/imagen-proyecto-vr.png)
 
